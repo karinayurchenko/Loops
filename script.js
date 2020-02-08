@@ -12,7 +12,7 @@ while (isNaN(secondNumber)) {
 const skip = confirm ('Is it necessary to skip  even numbers?');
 skip?temp = 'skip':temp = 'do not skip';
 
-
+let sum = 0;
 for (let i = firstNumber; i <= secondNumber; i++){  
     if(skip){
         if(i%2===0){
