@@ -23,6 +23,6 @@ for (let i = firstNumber; i <= secondNumber; i++){
     console.log(sum);
     }
 
-document.writeln(`<p>First number: ${firstNumber} `);
+document.writeln(`<p>First number: ${firstNumber} <p>`);
 document.writeln(`<p>Second number: ${secondNumber} <p>`);
 document.writeln(`Total amount beetween even  ${firstNumber} and ${secondNumber} is: ${sum}`);
